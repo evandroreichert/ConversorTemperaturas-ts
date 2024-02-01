@@ -1,0 +1,49 @@
+*{
+  font-size: 1em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a202c;
+  color: #cbd5e0;
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho-principal {
+  font-size: 2.5rem;
+}
+
+.indicador-temperatura {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.indicador-unidade {
+  color: #ffffff;
+  background-color: #2d3748;
+  border-radius: 0.3rem;
+  padding: 15px 35px;
+  margin-right: 0.5rem;
+}
+
+.entrada-bg-escuro {
+  background-color: #2d3748;
+  color: #ffffff;
+  border: 1px solid #4a5568;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 150px; 
+  padding: 15px 35px;
+}
+
+.entrada-bg-escuro:focus {
+  outline: none;
+  border-color: #63b3ed;
+  box-shadow: 0 0 0 2px #63b3ed;
+}
